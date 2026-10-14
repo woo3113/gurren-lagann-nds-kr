@@ -2,6 +2,10 @@
 
 닌텐도 DS 「天元突破グレンラガン / Tengen Toppa Gurren Lagann」 (일본판, `YGRJ`) 한글패치 작업 기록 + 툴체인.
 
+> ✅ **프리징 해결 (2026-10-14)** — 원인/해결은 [docs/FIX_NOTES.md](docs/FIX_NOTES.md). 최신 롬 `out/... (Korea) v2.nds`
+>
+> (아래는 해결 전 기록)
+>
 > ⚠️ **현재 상태: 미완성 (WIP)**
 > 번역·폰트·툴체인은 완성됐지만, **텍스트를 한글로 바꾸면 게임이 특정 지점에서 멈추는 문제**를 아직 해결하지 못했습니다. 자세한 내용은 [docs/STATUS.md](docs/STATUS.md) 참고.
 
