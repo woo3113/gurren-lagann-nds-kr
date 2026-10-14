@@ -1,0 +1,22 @@
+# --- 절대 올리면 안 되는 것 (원본/패치 롬, 세이브) ---
+*.nds
+*.zip
+*.sav
+*.dsv
+*.state
+work/
+
+# --- 중간 산출물 ---
+out/*.png
+out/*.txt
+out/*.csv.bak
+out/lines_ko*.json
+out/spc_strings.json
+out/arm9_strings.json
+out/strings_ko_*.json
+out/census.json
+out/_tmp.json
+
+# --- 빌드/캐시 ---
+__pycache__/
+*.pyc
