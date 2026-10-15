@@ -25,7 +25,7 @@ def build(path, mode, filt=None):
     r=bytearray(orig); ix=idx(); n=0
     for e in F["spc"]:
         if filt and not filt(e): continue
-        foff,_=ix[e["file"]]; off=SPC+foff+e["off"]; space=e["len"]
+        foff,_=ix[e["file"]]; off=SPC+foff+e["off"]+3; space=e["len"]
         ko=e["ko"]; jp_ascii=any(ord(c)<0x80 for c in e["text"])
         if mode=='fw' and not jp_ascii:
             d=b''.join(fw(c) for c in ko)
